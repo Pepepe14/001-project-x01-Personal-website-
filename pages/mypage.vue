@@ -19,23 +19,23 @@
 
         <!-- BOXS (INTRODUCTION), ME PICTURE, BRANDS, SOCIALS-->
         <div class="flex flex-col gap-3 w-1/2 h-full">
-<!-- TOP BOXS -->
+            <!-- TOP BOXS -->
             <div class="flex flex-row gap-3">
                 <div class="flex flex-col justify-between bg-[#fff] rounded-2xl p-5 gap-48 w-[45%]">
-                    <div class="flex flex-col">
+                    <div class="flex flex-col ">
                         <span class="text-xl">Daniele Dettori</span>
                         <span class="text-slate-400">Tenerife, Spain</span>
                     </div>
                     <div class="flex flex-col gap-3">
-                        <span class="bg-slate-400 rounded-full px-4 py-2 uppercase w-fit">Student</span>
+                        <span class="bg-[#EAEAEA] rounded-full px-4 py-2 uppercase w-fit">Student</span>
                         <span class="bg-[#EFF6FE] rounded-full text-[#2573D0] px-4 py-2 uppercase w-fit">Free</span>
                     </div>
                 </div>
-                <div class="flex flex-col justify-between bg-[#fff] rounded-2xl p-5 gap-36 w-[60%]">
-                    
+                <div class="flex flex-col justify-between bg-[#fff] rounded-2xl p-5 gap-36 w-[60%] presentation-image">
+
                 </div>
             </div>
-<!-- BOTTOM BOXS -->
+            <!-- BOTTOM BOXS -->
             <div class="flex flex-row gap-3">
                 <div class="flex flex-col justify-between bg-[#fff] rounded-2xl p-5 gap-4 w-[75%]">
                     <div class="flex flex-col text-xs">
@@ -43,7 +43,7 @@
                         <span>The most recent brands</span>
                     </div>
                     <div class="flex flex-col gap-3">
-                       <span>Lorem ipsum dolor, sit amet consectetur adipi</span>
+                        <span>Lorem ipsum dolor, sit amet consectetur adipi</span>
                     </div>
                 </div>
                 <div class="flex flex-col justify-around rounded-2xl gap-2 w-[25%]">
@@ -61,6 +61,41 @@
             </div>
 
         </div>
-
     </div>
+
+    <!-- MISSION / SECOND PART -->
+    <div class="flex flex-col bg-[#129FB3] rounded-2xl p-10 gap-5">
+        <span class="text-slate-50 text-3xl font-semibold">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Perspiciatis quia
+            quasi delectus aliquam blanditiis autem culpa unde in. Dolorem libero delectus et sequi! Iste distinctio
+            consequuntur perspiciatis exercitationem nobis consectetur.</span>
+        <span class="text-slate-50/80 text-xl">Ninguna</span>
+    </div>
+
+    <!--  -->
+    <div><span>¿En qué te puedo ayudar?</span></div>
+
+    <div class="flex flex-wor justify-around gap-5">
+    <!-- EXPERIENCIA -->
+        <div class="flex flex-col bg-slate-200 rounded-lg p-10 gap-10 w-full">
+            <span class="text-4xl font-semibold">Experiencia</span>
+
+            <div class="flex flex-row justify-between">
+                <div>Criptos</div>
+                <div>Teoría de juegos</div>
+            </div>
+            <div class="flex flex-row justify-center items-center">Programación</div>
+        </div>
+    <!-- TRABAJOS -->
+        <div class="flex flex-col bg-slate-200 rounded-lg p-10 gap-10 w-full">
+            <span class="text-4xl font-semibold">Trabajos</span>
+
+            <div class="flex flex-row justify-between">
+                <div>Proyecto Programación</div>
+                <div>Proyecto ETS</div>
+            </div>
+            <div class="flex flex-row justify-center items-center">Mi propia página web</div>
+        </div>
+    </div>
+
 </template>

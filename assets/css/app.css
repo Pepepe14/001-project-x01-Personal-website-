@@ -4,7 +4,12 @@
 
 body {
     font-size: 16px;
-    background-color: #F5F5F5;
+    background-color: #f8f8f8;
     color: #000;
-    padding: 2rem 12rem 0 12rem;
+    padding: 2rem 12rem 2rem 12rem;
+}
+
+.presentation-image{
+    background-image: image-set('public/daniele.jpg');
+    background-size: contain;
 }
