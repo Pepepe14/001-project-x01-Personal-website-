@@ -9,12 +9,17 @@
                     <div class="bg-[#0091A8] rounded-full w-1.5 h-1.5"></div>
                     <span>Avaible for work</span>
                 </div>
-                <span class="text-8xl font-semibold">Hi, I'm a young aventurero</span>
+                <span class=" text-8xl font-semibold">Hola, soy un joven aventurero.</span>
             </div>
-            <span>Tengo 18 años y estoy estudiando mi pasión. Lo que me divierte y me entretiene durante horas. Para
-                tener
-                un futuro prospero</span>
-            <button class="bg-[#242424] rounded-full text-slate-50 font-semibold px-4 py-2 w-fit">Contact Us</button>
+            <div>
+                <span>Tengo 18 años y estoy estudiando mi pasión. Lo que me divierte y me entretiene durante horas.
+                    Además,
+                    estoy estudiando el mundo de las criptomonedas y leyendo libros sobre cosas muy interesantes de la
+                    vida.</span>
+                <div>
+                    <span>Si estás interesado en un perfil como el mio, </span><button class="font-semibold">contáctame.</button>
+                </div>
+            </div>
         </div>
 
         <!-- BOXS (INTRODUCTION), ME PICTURE, BRANDS, SOCIALS-->
@@ -24,38 +29,26 @@
                 <div class="flex flex-col justify-between bg-[#fff] rounded-2xl p-5 gap-48 w-[45%]">
                     <div class="flex flex-col ">
                         <span class="text-xl">Daniele Dettori</span>
-                        <span class="text-slate-400">Tenerife, Spain</span>
+                        <span class="text-slate-600/80">Tenerife, Spain</span>
                     </div>
                     <div class="flex flex-col gap-3">
                         <span class="bg-[#EAEAEA] rounded-full px-4 py-2 uppercase w-fit">Student</span>
                         <span class="bg-[#EFF6FE] rounded-full text-[#2573D0] px-4 py-2 uppercase w-fit">Free</span>
                     </div>
                 </div>
-                <div class="flex flex-col justify-between bg-[#fff] rounded-2xl p-5 gap-36 w-[60%] presentation-image">
-
+                <div class="flex flex-col justify-between bg-[#fff] rounded-2xl gap-36 w-[60%]">
+                    <img class="w-full h-full rounded-2xl" src="public/daniele.jpg" alt="Daniele picture">
                 </div>
             </div>
             <!-- BOTTOM BOXS -->
-            <div class="flex flex-row gap-3">
-                <div class="flex flex-col justify-between bg-[#fff] rounded-2xl p-5 gap-4 w-[75%]">
-                    <div class="flex flex-col text-xs">
-                        <span>The most recent brands</span>
-                        <span>The most recent brands</span>
-                    </div>
-                    <div class="flex flex-col gap-3">
-                        <span>Lorem ipsum dolor, sit amet consectetur adipi</span>
-                    </div>
-                </div>
-                <div class="flex flex-col justify-around rounded-2xl gap-2 w-[25%]">
-                    <div class="flex flex-row justify-between">
-                        <div class="bg-[#fff] border rounded-full p-1 w-10 h-10"></div>
-                        <div class="bg-[#fff] border rounded-full p-1 w-10 h-10"></div>
-                        <div class="bg-[#fff] border rounded-full p-1 w-10 h-10"></div>
-                    </div>
-                    <div class="flex flex-row justify-between">
-                        <div class="bg-[#fff] border rounded-full p-1 w-10 h-10"></div>
-                        <div class="bg-[#fff] border rounded-full p-1 w-10 h-10"></div>
-                        <div class="bg-[#fff] border rounded-full p-1 w-10 h-10"></div>
+            <div class="flex flex-row bg-white rounded-xl gap-3">
+                <div class="flex flex-col justify-between p-5 gap-4 w-full">
+                    <span class="font-semibold">Únete a mi newsletter!</span>
+                    <div class="flex flex-row gap-3">
+                        <input class="rounded-lg p-2 w-2/5 outline-none" placeholder="Correo Electrónico" type="email">
+                        <input class="rounded-lg p-2 w-2/5 outline-none" placeholder="Nombre" type="text">
+                        <button
+                            class="rounded-lg bg-[#EFF6FE] text-[#2573D0] font-semibold w-1/5 uppercase">Unirse</button>
                     </div>
                 </div>
             </div>
@@ -64,19 +57,16 @@
     </div>
 
     <!-- MISSION / SECOND PART -->
-    <div class="flex flex-col bg-[#129FB3] rounded-2xl p-10 gap-5">
-        <span class="text-slate-50 text-3xl font-semibold">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Perspiciatis quia
-            quasi delectus aliquam blanditiis autem culpa unde in. Dolorem libero delectus et sequi! Iste distinctio
-            consequuntur perspiciatis exercitationem nobis consectetur.</span>
+    <div class="flex flex-col bg-[#3DAFBF] rounded-2xl p-10 gap-5">
+        <span class="text-slate-50 text-3xl font-semibold">EMPRESAS TRABAJADO</span>
         <span class="text-slate-50/80 text-xl">Ninguna</span>
     </div>
 
     <!--  -->
-    <div><span>¿En qué te puedo ayudar?</span></div>
+    <div class="text-3xl font-bold"><span>¿En qué te puedo ayudar?</span></div>
 
     <div class="flex flex-wor justify-around gap-5">
-    <!-- EXPERIENCIA -->
+        <!-- EXPERIENCIA -->
         <div class="flex flex-col bg-slate-200 rounded-lg p-10 gap-10 w-full">
             <span class="text-4xl font-semibold">Experiencia</span>
 
@@ -86,7 +76,7 @@
             </div>
             <div class="flex flex-row justify-center items-center">Programación</div>
         </div>
-    <!-- TRABAJOS -->
+        <!-- TRABAJOS -->
         <div class="flex flex-col bg-slate-200 rounded-lg p-10 gap-10 w-full">
             <span class="text-4xl font-semibold">Trabajos</span>
 

@@ -10,6 +10,6 @@ body {
 }
 
 .presentation-image{
-    background-image: image-set('public/daniele.jpg');
+    background-image: image-set('');
     background-size: contain;
 }

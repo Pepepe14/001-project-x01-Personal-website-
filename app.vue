@@ -2,6 +2,7 @@
   <div class="flex flex-col gap-16">
     <Header></Header>
     <router-view></router-view>
+    <Footer></Footer>
   </div>
 </template>
 
